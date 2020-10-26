@@ -89,3 +89,18 @@
       border-radius: 5px;
       cursor: pointer;
     }
+    #btn-set-bgred{
+      position: absolute;
+      bottom: 15%;
+      right: 20%;
+      outline: none;
+      font-size: 15px;
+     
+    }
+    #btn-set-bgdefault{
+        position: absolute;
+      bottom: 10%;
+      right: 16%;
+      outline: none;
+      font-size: 15px;
+    }
