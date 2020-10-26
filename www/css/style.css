@@ -49,10 +49,18 @@
         background-color: yellow;
         color: green;
     }
+    #btnA:hover{
+      background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%);     
+    }
     
     #btnB {
         font-size: 20px;
+        background-color:red;
+        color: yellow; 
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
+    }
+    #btnB:hover{
+      background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
     }
 
     #btnC {
@@ -72,10 +80,12 @@
     
     input[type=number] {text-align: right;}
     body{
-      background-color:sandybrown; 
+     
+      background: linear-gradient(356deg, rgba(34,195,138,0.8) 22%, rgba(73,173,213,0.9) 47%, rgba(253,197,45,1) 76%);
     }
     button{
       color: palevioletred;
       font-style: italic;
-      border-radius: 20px;
+      border-radius: 5px;
+      cursor: pointer;
     }
